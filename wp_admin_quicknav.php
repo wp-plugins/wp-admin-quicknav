@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Admin Quicknav
-Version: 0.1
+Version: 0.3
 Description: Adds a simple dropdown box at the top admin edit screens allowing you to quickly jump from one page, post, or custom post type to the next without having to return to the respective listing page.
 Author: Rion Dooley
 Author URI:  http://github.org/deardooley

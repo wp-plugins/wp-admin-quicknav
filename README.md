@@ -65,6 +65,12 @@ Yes. It will work with all posts, pages, and custom post types.
 
 ### Changelog
 
+**0.3 **
+* Added composer.json for use composer installations
+
+**0.2 **
+* Fixed php warnings when used on a new post/page
+
 **0.1 **
 
 * First commit
