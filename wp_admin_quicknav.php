@@ -49,7 +49,7 @@ class WPAdminQuicknav
 		add_action("edit_form_after_title", array('WPAdminQuicknav',"edit_form_after_title"), 10);
 	}
 
-	public function edit_form_after_title()
+	public static function edit_form_after_title()
 	{
 		$screen = get_current_screen();
 
@@ -83,7 +83,7 @@ class WPAdminQuicknav
 
 		if ($options)
 		{
-			$id = $_GET['post'];
+			$id = isset($_GET['post']) ? $_GET['post'] : '';
 
 			echo '<select id="wp_admin_quicknav" style="margin-left: 10px;">';
 			foreach ($options as $title=>$postid)
